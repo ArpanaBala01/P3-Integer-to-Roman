@@ -34,11 +34,11 @@ public class integerToRoman {
         System.out.println("Enter Integer:");  // Taking the input numerals
         int num = scanner.nextInt();
         
-        System.out.println(integerToRoman(num)); // printing the output as Roman Number
+        System.out.println(intToRoman(num)); // printing the output as Roman Number
 
     }
 
-    public static String integerToRoman(int num) {
+    public static String intToRoman(int num) {
 
         // Using Map Function to take the values of Roman and Integer as Key-value pair
 
